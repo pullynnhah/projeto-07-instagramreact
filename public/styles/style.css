@@ -1,0 +1,259 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
+}
+
+header {
+  height: 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav:last-child {
+  display: none;
+}
+
+nav {
+  height: 54px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22px;
+}
+
+ion-icon {
+  font-size: 22px;
+}
+
+ion-icon:hover {
+  color: #f6439d;
+  cursor: pointer;
+}
+
+main {
+  margin: 54px 0;
+}
+
+.stories {
+  height: 118px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 0 18px;
+
+  overflow: hidden;
+}
+
+.border {
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.story {
+  min-width: 66px;
+  position: relative;
+}
+
+.user-image {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.story p {
+  color: #262626;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.post {
+  background-color: #fff;
+}
+
+.post-header {
+  height: 61px;
+  padding: 0 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-header div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.post-header p {
+  color: #262626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.ellipsis {
+  font-size: 16px;
+}
+
+.post > img,
+video {
+  width: 100vw;
+}
+
+.post-reactions {
+  height: 38px;
+  padding: 0 18px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-reactions div {
+  display: flex;
+  gap: 18px;
+}
+
+.post-likes {
+  height: 38px;
+  padding: 0 18px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.post-likes p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.post-comments {
+  padding: 0 18px;
+}
+
+.post-comments div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-comments p {
+  color: #262626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+button {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.more-comments {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8e8e8e;
+  margin-bottom: 10px;
+}
+
+.like-comment {
+  background-color: #fff;
+}
+
+.like-comment ion-icon {
+  font-size: 16px;
+}
+
+.your-comment {
+  height: 50px;
+  display: flex;
+  padding: 0 18px;
+  justify-content: space-between;
+  align-items: center;
+
+  border-top: 1px solid #dbdbdb;
+}
+
+.your-comment div {
+  display: flex;
+  flex-grow: 1;
+  gap: 10px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  color: #222;
+}
+
+input::placeholder {
+  color: #979797;
+}
+
+.your-comment input {
+  font-size: 16px;
+  line-height: 20px;
+
+  flex-grow: 1;
+  border: none;
+}
+
+.your-comment input:focus {
+  outline: none;
+}
+
+.your-comment button {
+  background-color: #fff;
+  color: #b2dffc;
+  transition: all 300ms;
+  margin-left: 10px;
+}
+
+.your-comment button:hover {
+  color: #0095f6;
+}
+
+aside {
+  display: none;
+}
+
+footer {
+  background-color: #fff;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 22px;
+  height: 54px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,177 @@
+@media (min-width: 614px) {
+  nav:first-child {
+    display: none;
+  }
+
+  nav:last-child {
+    display: flex;
+    border-bottom: 1px solid #DBDBDB;
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo ion-icon {
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #DBDBDB;
+  }
+
+  nav input {
+    background-color: #FAFAFA;
+    width: 215px;
+    height: 28px;
+
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+  }
+
+  .actions {
+    gap: 25px;
+  }
+
+  main {
+    width: 614px;
+    margin: 88px auto 54px;
+  }
+
+  .stories {
+    background-color: #FFF;
+    margin-bottom: 24px;
+    border: 1px solid #DBDBDB;
+
+    position: relative;
+  }
+
+  .stories ion-icon {
+    position: absolute;
+    top: 46px;
+    right: 8px;
+    color: #FFF;
+    font-size: 26px;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+  .post {
+    width: 614px;
+    border: 1px solid #DBDBDB;
+  }
+
+  .post > img,
+  video {
+    width: 612px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media (min-width: 935px) {
+  header {
+    border-bottom: 1px solid #DBDBDB;
+  }
+
+  nav {
+    padding: 0;
+    margin: 0 auto;
+    width: 935px;
+  }
+
+  .feed {
+    width: 935px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  aside {
+    margin: 111px 0 0 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+    height: 450px;
+    position: sticky;
+    top: 111px;
+    right: 0;
+  }
+
+  aside p {
+    color: #8E8E8E;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  aside button {
+    background-color: #FAFAFA;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .user {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+  }
+
+  .you {
+    margin-right: 6px;
+  }
+
+  .user div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .user strong {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+  }
+
+  .user small {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #818181;
+  }
+
+  .suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .suggestions-header button {
+    font-weight: 500;
+    color: #262626;
+  }
+
+  .suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .suggestion button {
+    color: #139EF2;
+  }
+
+  .disclamer,
+  .copyright {
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+  }
+}
