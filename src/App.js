@@ -1,11 +1,5 @@
-import Stories from "./components/stories/Stories";
-import Posts from "./components/posts/Posts";
+import Feed from "./components/Feed";
 
 export default function App() {
-  return (
-    <main>
-      <Stories />
-      <Posts />
-    </main>
-  );
+  return <Feed />;
 }
