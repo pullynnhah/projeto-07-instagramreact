@@ -1,16 +1,15 @@
 import React from "react";
 
-export default function PostReactions() {
-  const [heart, setHeart] = React.useState("heart-outline");
+export default function PostReactions(props) {
   const [bookmark, setBookmark] = React.useState("bookmark-outline");
   return (
     <div className="post-reactions">
       <div>
         <ion-icon
           className="like-post"
-          name={heart}
+          name={props.name}
           onClick={() =>
-            heart === "heart-outline" ? setHeart("heart") : setHeart("heart-outline")
+            props.name === "heart-outline" ? props.setName("heart") : props.setName("heart-outline")
           }></ion-icon>
         <ion-icon name="chatbubble-outline"></ion-icon>
         <ion-icon name="paper-plane-outline"></ion-icon>
