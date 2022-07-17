@@ -128,6 +128,10 @@ video {
   gap: 18px;
 }
 
+.unselected {
+  display: none;
+}
+
 .post-likes {
   height: 38px;
   padding: 0 18px;

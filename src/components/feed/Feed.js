@@ -1,6 +1,6 @@
-import Stories from "./stories/Stories";
-import Posts from "./posts/Posts";
-import Sidebar from "./sidebar/Sidebar";
+import Stories from "../stories/Stories";
+import Posts from "../posts/Posts";
+import Sidebar from "../sidebar/Sidebar";
 
 export default function Feed() {
   return (
