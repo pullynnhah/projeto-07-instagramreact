@@ -9,6 +9,7 @@ import React from "react";
 
 export default function Post(props) {
   const [heart, setHeart] = React.useState("heart-outline");
+  const [heartComment, setHeartComment] = React.useState("heart-outline");
   const [likeCount, setLikeCount] = React.useState(props.likeCount);
   const [comment, setComment] = React.useState(props.comment);
   const [commentCount, setCommentCount] = React.useState(props.commentCount);
@@ -39,11 +40,14 @@ export default function Post(props) {
         commentsCount={props.commentsCount}
         comment={comment}
         commentCount={commentCount}
+        heart={heartComment}
+        setHeart={setHeartComment}
       />
       <PostInputComment
         setComment={setComment}
         commentCount={commentCount}
         setCommentCount={setCommentCount}
+        setHeart={setHeartComment}
       />
     </article>
   );

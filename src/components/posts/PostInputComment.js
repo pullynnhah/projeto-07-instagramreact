@@ -12,6 +12,7 @@ export default function PostInputComment(props) {
     props.setComment(input);
     props.setCommentCount(props.commentCount + 1);
     setInput("");
+    props.setHeart("heart-outline");
   }
 
   return (
