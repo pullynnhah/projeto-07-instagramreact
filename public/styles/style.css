@@ -30,7 +30,7 @@ ion-icon {
 }
 
 ion-icon:hover {
-  color: #f6439d;
+  color: #f32424;
   cursor: pointer;
 }
 
@@ -128,8 +128,8 @@ video {
   gap: 18px;
 }
 
-.unselected {
-  display: none;
+ion-icon[name="heart"] {
+  color: #f32424;
 }
 
 .post-likes {
