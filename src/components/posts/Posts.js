@@ -6,8 +6,8 @@ export default function Posts() {
     {
       user: "meowed",
       otherUser: "respondeai",
-      likesCount: "101.523",
-      commentsCount: "3,289",
+      likeCount: 101523,
+      commentCount: 3289,
       comment: "📱 do gato melhor que o meu!",
       isVideo: false,
       image: "cat",
@@ -16,7 +16,8 @@ export default function Posts() {
     {
       user: "barked",
       otherUser: "adorableanimals",
-      commentsCount: "99.159",
+      likeCount: 99159,
+      commentCount: 3289,
       comment: "Owww! Queria ser fofo assim dormindo.",
       isVideo: false,
       image: "dog",
@@ -25,7 +26,8 @@ export default function Posts() {
     {
       user: "adorableanimals",
       otherUser: "respondeai",
-      commentsCount: "98.765",
+      likeCount: 98765,
+      commentCount: 3289,
       comment: "Os patos mais corajosos que eu!",
       isVideo: true,
       video: "video",

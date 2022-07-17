@@ -4,7 +4,9 @@ export default function PostComments(props) {
   const [heart, setHeart] = React.useState("heart-outline");
   return (
     <div className="post-comments">
-      <button className="more-comments">Ver todos os {props.commentsCount} comentários</button>
+      <button className="more-comments">
+        Ver todos os {props.commentCount.toLocaleString()} comentários
+      </button>
       <div>
         <p>{props.comment}</p>
         <button className="like-comment">

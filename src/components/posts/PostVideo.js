@@ -4,7 +4,7 @@ export default function PostVideo(props) {
       controls
       autoPlay
       muted
-      onClick={() =>
+      onDoubleClick={() =>
         props.name === "heart-outline" ? props.setName("heart") : props.setName("heart-outline")
       }>
       <source src={`assets/videos/${props.video}.mp4`} type="video/mp4" />
