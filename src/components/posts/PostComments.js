@@ -4,7 +4,7 @@ export default function PostComments(props) {
   return (
     <div className="post-comments">
       <button className="more-comments">
-        Ver todos os {props.commentCount.toLocaleString()} comentários
+        Ver todos os {props.commentCount.toLocaleString("pt-br")} comentários
       </button>
       <div>
         <p>{props.comment}</p>
